@@ -1,12 +1,18 @@
 {
-  "name": "redlock",
-  "version": "v5.0.0-beta.2",
+  "name": "@nanahira/redlock",
+  "version": "1.0.0",
   "description": "A node.js redlock implementation for distributed redis locks",
   "license": "MIT",
   "author": {
     "name": "Mike Marcacci",
     "email": "mike.marcacci@gmail.com"
   },
+  "maintainers": [
+    {
+      "name": "Nanahira",
+      "email": "nanahira@momobako.com"
+    }
+  ],
   "repository": "https://github.com/mike-marcacci/node-redlock.git",
   "homepage": "https://github.com/mike-marcacci/node-redlock#readme",
   "bugs": "https://github.com/mike-marcacci/node-redlock/issues",
