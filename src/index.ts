@@ -346,11 +346,13 @@ export default class Redlock extends EventEmitter {
     lock: Lock,
     settings?: Partial<Settings>
   ): Promise<ExecutionResult> {
+    /*
     // Check if lock already expired and quit early
     if (lock.expiration < Date.now()) {
       const attempts: Promise<ExecutionStats>[] = [];
       return Promise.resolve({ attempts });
     }
+    */
 
     // Immediately invalidate the lock.
     lock.expiration = 0;
